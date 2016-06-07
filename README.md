@@ -75,7 +75,7 @@ Usage
 const sgCompiler = require('sg-compiler')
 const co = require('co')
 
-// Compile es 6 script
+// Compile es6 script 
 co(function * () {
   let compiler = sgCompiler()
 
