@@ -11,5 +11,5 @@ co(function * () {
     let {foo, bar} = { foo: 'this is foo', bar: 'This is bar' }
     console.log(foo, bar)
   `)
-  console.log(compiled) // -> es5 script
+  console.log(compiled) // es5 script
 })
