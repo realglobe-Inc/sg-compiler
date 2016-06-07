@@ -3,7 +3,7 @@
 const sgCompiler = require('sg-compiler')
 const co = require('co')
 
-// Compile es6 script 
+// Compile es6 script
 co(function * () {
   let compiler = sgCompiler()
 
@@ -11,5 +11,5 @@ co(function * () {
     let {foo, bar} = { foo: 'this is foo', bar: 'This is bar' }
     console.log(foo, bar)
   `)
-  console.log(compiled)
+  console.log(compiled) // -> es5 script
 })
