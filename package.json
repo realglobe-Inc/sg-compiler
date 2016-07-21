@@ -21,7 +21,6 @@
   },
   "homepage": "https://github.com/realglobe-Inc/sg-compiler#readme",
   "dependencies": {
-    "babel": "^6.5.2",
     "babel-core": "^6.11.4",
     "babel-preset-es2015": "^6.9.0",
     "babel-preset-react": "^6.11.1",

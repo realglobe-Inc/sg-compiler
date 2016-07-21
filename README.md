@@ -53,6 +53,7 @@ Javascript compiler for sugos
 <!-- Section from "doc/guides/01.Installation.md.hbs" Start -->
 
 <a name="section-doc-guides-01-installation-md"></a>
+
 Installation
 -----
 
@@ -66,6 +67,7 @@ $ npm install sg-compiler --save
 <!-- Section from "doc/guides/02.Usage.md.hbs" Start -->
 
 <a name="section-doc-guides-02-usage-md"></a>
+
 Usage
 ---------
 
@@ -83,7 +85,7 @@ co(function * () {
     let {foo, bar} = { foo: 'this is foo', bar: 'This is bar' }
     console.log(foo, bar)
   `)
-  console.log(compiled) // -> es5 script
+  console.log(compiled) // es5 script
 })
 
 ```
@@ -110,6 +112,7 @@ This software is released under the [MIT License](https://github.com/realglobe-I
 
 Links
 ------
+
 
 
 <!-- Links End -->

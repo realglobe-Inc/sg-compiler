@@ -8,7 +8,9 @@ const resolveBin = require('../lib/helpers/resolve_bin.js')
 const assert = require('assert')
 const co = require('co')
 
-describe('resolve-bin', () => {
+describe('resolve-bin', function () {
+  this.timeout(3000)
+
   before(() => co(function * () {
 
   }))
