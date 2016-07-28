@@ -1,6 +1,6 @@
 {
   "name": "sg-compiler",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Javascript compiler for sugos",
   "main": "lib",
   "scripts": {
