@@ -4,7 +4,8 @@
   "description": "Javascript compiler for sugos",
   "main": "lib",
   "scripts": {
-    "test": "./ci/test.js"
+    "test": "node ./ci/test.js",
+    "prepare": "node ./ci/build.js"
   },
   "repository": "realglobe-Inc/sg-compiler",
   "keywords": [
@@ -15,7 +16,7 @@
     "email": "okunishitaka.com@gmail.com",
     "url": "http://okunishitaka.com"
   },
-  "license": "MIT",
+  "license": "Apache-2.0",
   "bugs": {
     "url": "https://github.com/realglobe-Inc/sg-compiler/issues"
   },
@@ -27,22 +28,18 @@
     "co": "^4.6.0"
   },
   "devDependencies": {
-    "amocha": "^1.0.8",
+    "amocha": "^2.0.0",
     "ape-formatting": "^1.0.2",
     "ape-releasing": "^4.0.2",
-    "ape-reporting": "^3.0.1",
     "ape-tasking": "^4.0.7",
     "ape-tmpl": "^5.0.14",
     "ape-updating": "^4.0.4",
     "coz": "^6.0.14",
     "injectmock": "^2.0.0",
-    "sg-travis": "^1.1.25"
+    "sugos-travis": "^2.0.6"
   },
   "engines": {
     "node": ">=6",
-    "npm": ">=3"
-  },
-  "publishConfig": {
-    "registry": "https://realglobe.artifactoryonline.com/realglobe/api/npm/npm-local"
+    "npm": ">=4"
   }
 }
